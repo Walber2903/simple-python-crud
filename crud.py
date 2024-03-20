@@ -90,6 +90,7 @@ def delete_a_contact(contact_list, index_to_delete):
         print(f"You removed the contact name: {contact['name']}")
   else:
     print("You don't have this elemento in your list! \n")
+  return
 
 
 contact_list = []
